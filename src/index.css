@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 0;
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+.row {
+    --bs-gutter-x: 0rem;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    
+}
+#root {
+    background-color: #4b4b4b;
+    width: 100%;
+    overflow: hidden;
+}
